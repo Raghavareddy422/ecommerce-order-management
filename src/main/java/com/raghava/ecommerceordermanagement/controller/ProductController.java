@@ -5,12 +5,11 @@ import com.raghava.ecommerceordermanagement.entity.Product;
 import com.raghava.ecommerceordermanagement.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
+import org.springframework.web.bind.annotation.CrossOrigin;
 import java.util.List;
-
 @RestController
 @RequestMapping("/products")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://ecommerce-frontend-taupe-delta.vercel.app")
 public class ProductController {
 
     @Autowired

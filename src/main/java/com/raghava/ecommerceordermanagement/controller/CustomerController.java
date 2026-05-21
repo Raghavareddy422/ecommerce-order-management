@@ -11,7 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/customers")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://ecommerce-frontend-taupe-delta.vercel.app")
 public class CustomerController {
 
     @Autowired
